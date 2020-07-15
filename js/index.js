@@ -57,3 +57,33 @@ thirdImg.addEventListener("mouseleave", () => {
   thirdImg.style.transform = "scale(1.0)";
   thirdImg.style.transition = "all 0.3s";
 });
+
+fourthImg.addEventListener("wheel", () => {
+  fourthImg.style.transform = "scale(3.0)";
+  fourthImg.style.transition = "all 0.5s";
+});
+
+fourthImg.addEventListener("mouseleave", () => {
+  fourthImg.style.transform = "scale(1.0";
+  fourthImg.style.transition = "all 0.3s";
+});
+
+firstImg.addEventListener("click", () => {
+  firstImg.style.borderRadius = "50%";
+});
+
+window.addEventListener("keydown", () => {
+  window.alert("you pressed a key!");
+});
+
+window.addEventListener("keyup", () => {
+  window.alert("you released a key!");
+});
+
+window.addEventListener("drag", () => {
+  window.alert("stop dragging me!");
+});
+
+window.addEventListener("dragend", () => {
+  window.alert("whew!Thanks.");
+});
